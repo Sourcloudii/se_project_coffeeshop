@@ -1,15 +1,16 @@
 .header {
   background: center/cover no-repeat #fff url(../images/background_header.svg);
   padding: 30px 80px 40px;
+  box-sizing:border-box;
   height: 800px;
   position: relative;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .header__title {
-  font-family: "Inter", "Ariel", sans-serif;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
@@ -20,6 +21,7 @@
 
 .header__span-accent {
   font-family: "Noto Serif", "Time New Roman", serif;
+  font-weight: 400;
   font-style: italic;
   color: #3f96f3;
   display: block;
@@ -39,6 +41,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__footer {
@@ -51,10 +54,7 @@
 }
 
 .header__paragraph {
-  font-family: "Inter", "Ariel", sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   color: #6f6f6f;
   margin: 0;
   display: flex;
