@@ -18,6 +18,12 @@
   line-height: 20px;
   text-decoration: none;
   color: #000;
+  transition: opacity 0.5s;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
 }
 .nav__logo {
   width: 105px;
