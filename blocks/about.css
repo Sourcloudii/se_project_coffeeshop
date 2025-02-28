@@ -1,0 +1,31 @@
+.about {
+  background-color: #0a2850;
+  padding: 119px 80px 173px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  max-width: 251px;
+  font-family: "Inter", "Ariel", sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.about__content {
+  max-width: 660px;
+  font-family: "Noto Serif", "Time New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__paragraph {
+  margin: 0 0 20px;
+}
+
+.about__paragraph
+
+.about__circle {
+}
