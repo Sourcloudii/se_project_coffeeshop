@@ -45,9 +45,6 @@
 }
 
 .header__footer {
-  font-family: "Noto Serif", "Time New Roman", serif;
-  font-size: 20px;
-  line-height: 30px;
   margin-top: auto;
   display: flex;
   justify-content: space-between;
